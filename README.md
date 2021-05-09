@@ -3,4 +3,4 @@ Open Form.html file. then login/register, it will take you to hey2.html. on Dash
 DEPENDENCIES:
 you will be asked to login/register with your email id and password. and then,
 you will need to click buttons provided to move to next page.
-credits: https://tailblocks.cc/ , https://source.unsplash.com/ , https://tailwindcss.com/
+credits: https://tailblocks.cc/ , https://source.unsplash.com/ , https://tailwindcss.com/ , https://www.youtube.com/results?search_query=easy+tutorials
