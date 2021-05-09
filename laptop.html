@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">  
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+    <body style="background:linear-gradient(to right,rgb(226, 164, 255),rgb(220, 105, 243))">
+
+
+
+        <header class="text-gray-400 bg-gray-900 body-font">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+              <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span class="ml-3 text-xl">Student HelpBot</span>
+              </a>
+              <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-white"></a>
+                <a class="mr-5 hover:text-white">Homw</a>
+                <a class="mr-5 hover:text-white">About Us</a>
+                <a class="mr-5 hover:text-white">Contact</a>
+              </nav>
+              <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Log Out
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+          </header>
+        <hr>
+        <div class="question">
+            <button id="p1" class="q1">
+                <h2>
+                    Let's start by choosing a broad category.
+                </h2>
+            </button>
+
+            <button id="p2" class="q2">
+                <h2>
+                    What do you want a laptop for?
+                </h2>
+            </button>
+
+            <button id="p3" class="q3">
+                <h2>
+                    Do you require any of the following feature?
+                </h2>
+            </button>
+
+            <button id="p4" class="q4">
+                <h2>
+                    op1vvvvvvffffvvvvvvvvv<br>vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv<br>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+                </h2>
+            </button>
+
+            <button id="p5" class="q5">
+                <h2>
+                    What do you want a laptop for?
+                </h2>
+            </button>
+
+            <button id="p6" class="q6">
+                <h2>
+                    Would you travel with your laptop?
+                </h2>
+            </button>
+
+            <button id="p7" class="q7">
+                <h2>
+                    How much disk space would you need? 
+                </h2>
+            </button>
+
+            <button id="p8" class="q8">
+                <h2>
+                    What built quality do you want?
+                </h2>
+            </button>
+
+            <button id="p9" class="q9">
+                <h2>
+                    op1vvvvvvffffvvv
+                </h2>
+            </button>
+
+            
+        </div>
+        <div id = "opt" class="options">
+            <button id="op11" class="b1" onclick="function11()">
+                General use
+            </button>
+            <button id="op12" class="b2" onclick="function12()">
+                Gaming/Heavy apps
+            </button>
+            <button id="op13" class="b3" onclick="function13()">
+                
+            </button>
+
+
+
+            <button id="op21" class="b4" onclick="function21()">
+                Business (MS office)
+            </button>
+            <button id="op22" class="b5" onclick="function22()">
+                Online meets, streaming, everyday purpose
+            </button>
+            <button id="op23" class="b6" onclick="function23()">
+                Programming, Develpoment
+            </button>
+
+
+
+            <button id="op31" class="b7" onclick="function31()">
+                Foldable
+            </button>
+            <button id="op32" class="b8" onclick="function32()">
+                Touchscreen
+            </button>
+            <button id="op33" class="b9" onclick="function33()">
+                Not necessary
+            </button>
+
+
+            <button id="op41" class="b10" onclick="function41()">
+                op21ccccc
+            </button>
+            <button id="op42" class="b11" onclick="function42()">
+                op31111cccc
+            </button>
+            <button id="op43" class="b12" onclick="function43()">
+                op4111cccc
+            </button>
+
+
+            <button id="op51" class="b13" onclick="function51()">
+                Gaming, video editing, 3d arts
+            </button>
+            <button id="op52" class="b14" onclick="function52()">
+                Photo editing, 2d arts
+            </button>
+            <button id="op53" class="b15" onclick="function53()">
+                Music production, other heavy softwares that don't involve graphics
+            </button>
+
+
+            <button id="op61" class="b16" onclick="function61()">
+                Yes (better battery, light weight)
+            </button>
+            <button id="op62" class="b17" onclick="function62()">
+                I would keep it at a single place (better performance)
+            </button>
+            <button id="op63" class="b18" onclick="function63()">
+                
+            </button>
+
+
+            <button id="op71" class="b19" onclick="function71()">
+                under 1Tb (storing photos, basic softwares)
+            </button>
+            <button id="op72" class="b20" onclick="function72()">
+                1Tb+ (storing a lot of movies, games, softwares)
+            </button>
+            <button id="op73" class="b21" onclick="function73()">
+                
+            </button>
+
+
+            <button id="op81" class="b22" onclick="function81()">
+                Highly durable
+            </button>
+            <button id="op82" class="b23" onclick="function82()">
+                Mediocre (Budget-friendly)
+            </button>
+            <button id="op83" class="b24" onclick="function83()">
+               
+            </button>
+            
+
+            <button id="op91" class="b25" onclick="function91()">
+                op21ccccc
+            </button>
+            <button id="op92" class="b26" onclick="function92()">
+                op31111cccc
+            </button>
+            <button id="op93" class="b27" onclick="function93()">
+                op4111cccc
+            </button>
+
+
+
+
+            <section class="text-gray-600 body-font">
+                <div class="container px-5 py-24 mx-auto">
+                  <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+                    <div class="sm:w-1/2 mb-10 px-4" style="display: none;" id="x1">
+                      <div class="rounded-lg h-64 overflow-hidden">
+                        
+                      </div>
+                      <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">31,493</h2>
+                      <p class="leading-relaxed text-base">HP 15 Thin & Light Ryzen 3-3250 Laptop, 4 GB RAM, 1TB HDD, 38.1 cms (15") FHD Screen, Windows 10, MS Office (15s-gr0006au)</p>
+                      <button onclick="window.location.href = 'https://www.amazon.in/gp/product/B083SNGBLF/ref=ox_sc_act_title_6?smid=A14CZOWI0VEHLG&psc=1';" class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Buy</button>
+                    </div>
+                    <div class="sm:w-1/2 mb-10 px-4" style="display: none;"  id="x2">
+                      <div class="rounded-lg h-64 overflow-hidden">
+                        
+                      </div>
+                      <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">37,999</h2>
+                      <p class="leading-relaxed text-base">HP 15 Ryzen 3 4300U Processor 15.6-inch(39.6 cm) FHD Laptop (8GB/256GB/Windows 10/MS Office/Natural Silver/1.69Kg), 15s-ey1003AU</p>
+                      <button onclick="window.location.href = 'https://www.amazon.in/gp/product/B092JKHHPZ/ref=ox_sc_act_title_9?smid=A14CZOWI0VEHLG&psc=1';" class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Buyn</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              
+              <section class="text-gray-600 body-font" >
+                <div class="container px-5 py-24 mx-auto">
+                  <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+                    <div class="sm:w-1/2 mb-10 px-4" style="display: none;"  id="x3">
+                      <div class="rounded-lg h-64 overflow-hidden">
+                        
+                      </div>
+                      <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">64,589</h2>
+                      <p class="leading-relaxed text-base">ASUS VivoBook Ultra 15 Ryzen 7 4700U 15.6-inch Laptop (8GB/1TB/256GB NVMe SSD/Win10/Integrated Graphics/Bespoke Black/1.80 kg), M513IA-EJ313T +Microsoft 365 Personal -  One Year Subscription Included</p>
+                      <button onclick="window.location.href = 'https://www.amazon.in/gp/product/B08L3NPT1M/ref=ox_sc_act_title_3?smid=A14CZOWI0VEHLG&psc=1';" class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Buy</button>
+                    </div>
+                    <div class="sm:w-1/2 mb-10 px-4" style="display: none;"  id="x4">
+                      <div class="rounded-lg h-64 overflow-hidden">
+                        
+                      </div>
+                      <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">30,200</h2>
+                      <p class="leading-relaxed text-base">12GB</p>
+                      <button onclick="window.location.href = 'https://www.amazon.in/gp/product/B08JCP96XL/ref=ox_sc_act_title_5?smid=A2AQ9EEP46USW4&psc=1';" class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Buy</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+    
+              <section class="text-gray-600 body-font" >
+                <div class="container px-5 py-24 mx-auto">
+                  <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+                    <div class="sm:w-1/2 mb-10 px-4" style="display: none;"  id="x5">
+                      <div class="rounded-lg h-64 overflow-hidden">
+                        
+                      </div>
+                      <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">36,990</h2>
+                      <p class="leading-relaxed text-base">HP 14 Ultra Thin & Light 14" (35.56cms) Laptop (10th Gen i3-1005G1/8GB/256GB SSD/Win 10 Home/MS Office/1.47 Kg/Jet Black), 14s-cf3074TU</p>
+                      <button onclick="window.location.href = 'https://www.amazon.in/gp/product/B08G24RGKS/ref=ox_sc_act_title_8?smid=A14CZOWI0VEHLG&psc=1';" class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Buy</button>
+                    </div>
+                    <div class="sm:w-1/2 mb-10 px-4" style="display: none;"  id="x6">
+                      <div class="rounded-lg h-64 overflow-hidden">
+                        
+                      </div>
+                      <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Jio Rs251</h2>
+                      <p class="leading-relaxed text-base">50GB</p>
+                      <button onclick="window.location.href = 'https://www.jio.com/en-in/4g-plans';" class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Buy</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+    
+              <section class="text-gray-600 body-font" >
+                <div class="container px-5 py-24 mx-auto">
+                  <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+                    <div class="sm:w-1/2 mb-10 px-4" style="display: none;"  id="x7">
+                      <div class="rounded-lg h-64 overflow-hidden">
+                        
+                      </div>
+                      <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Buy YouTube Videos</h2>
+                      <p class="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+                      <button  class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Button</button>
+                    </div>
+                    <div class="sm:w-1/2 mb-10 px-4" style="display: none;"  id="x8">
+                      <div class="rounded-lg h-64 overflow-hidden">
+                        
+                      </div>
+                      <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">The Catalyzer</h2>
+                      <p class="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+                      <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Button</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="text-gray-600 body-font" >
+                <div class="container px-5 py-24 mx-auto">
+                  <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+                    <div class="sm:w-1/2 mb-10 px-4" style="display: none;"  id="x9">
+                      <div class="rounded-lg h-64 overflow-hidden">
+                        
+                      </div>
+                      <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Buy YouTube Videos</h2>
+                      <p class="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+                      <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Button</button>
+                    </div>
+                    <div class="sm:w-1/2 mb-10 px-4" style="display: none;"  id="x10">
+                      <div class="rounded-lg h-64 overflow-hidden">
+                        
+                      </div>
+                      <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">The Catalyzer</h2>
+                      <p class="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+                      <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Button</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            
+
+        </div>
+            
+        
+
+
+
+
+
+
+        <script src="code.js">
+            
+        </script>
+    </body>
+</html>
